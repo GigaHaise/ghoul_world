@@ -1,0 +1,159 @@
+/* Ghoul World Home Page Style Sheet */
+
+@font-face {
+    font-family: 'Gesso';
+    src: url('font/GESSO/GESSO___-webfont.eot');
+    src: url('font/GESSO/GESSO___-webfont.eot?#iefix')
+format('embedded-opentype'),
+         url('font/GESSO/GESSO___-webfont.woff') format('woff'),
+         url('font/GESSO/GESSO___-webfont.ttf') format('truetype'),
+         url('font/GESSO/GESSO___-webfont.svg#gessoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+margin: 0;
+}
+
+body {
+	background-color: black;
+	height: 100%;
+	color:white;
+}
+
+html{
+height: 100%;
+}
+
+#banner {
+	background-image: url("../images/backgrounds/banner.jpg");
+	width: 1200px;
+	height: 275px;
+	position: relative;
+	margin: 0 auto;
+	
+}
+
+
+#logo {
+	font-family: 'Gesso', Arial, sans-serif;
+	font-size: 80pt;
+	position: absolute;
+	left: 620px;
+	top: 130px;
+	color: #E8F3F8;
+
+}
+
+
+#content {
+	position: relative;
+	width: 1200px;
+	height: 700px;
+	margin: 0 auto;
+	background-color: #C2CBCE;
+
+}
+
+#copyright {
+	position: relative;
+	margin: 0 auto;
+	width: 1200px;
+	height: 70px;
+	background-color: #0B0D1D;
+	text-align: center;
+}
+
+#copyright p{
+	position: relative;
+	top: 50%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+	font-size: 10pt;
+}
+
+#leftnav {
+	height: 100%;
+	width: 230px;
+	position: relative;
+	float: left;
+	background-color: white;
+
+}
+
+#stage {
+	width: 970px;
+	height: 100%;
+	position: relative;
+	float: left;
+
+}
+
+
+#phone {
+	width: 242px;
+	height: 459px;
+	position: relative;
+	margin: 0 auto;
+	top: 20px;
+	background-image: url('../images/backgrounds/smartphone_frame.png');
+	background-repeat: no-repeat;
+
+}
+
+/* Screen Default Dimensions - 215px; by 350px;*/
+#screen {
+	position: absolute;
+	margin: 0 auto;
+	width: 215px;
+	height: 350px;
+	top: 55px;
+	left: 13px;
+	background-color: white;
+	border: solid 1px black;
+	background-image: url('../images/backgrounds/phone_background.jpg');
+	background-repeat: no-repeat;
+	border-radius: 2px;
+
+}
+
+#screen_grid{
+	height: 100%;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+
+#phone_content {
+	height: 100%;
+	width: 100%;
+	border-collapse: collapse;
+	
+}
+
+#phone_menu {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#t_half {
+	height: 80%;
+}
+
+#b_half {
+	border-top: solid 1px gray;
+
+}
+
+
+.app_grid th, td{
+	padding: 0px;
+}
+
+.app_grid  td{ 
+	height: 57px;
+	width: 43px;
+}
